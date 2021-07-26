@@ -13,9 +13,9 @@ Thus, ensure that your workload conforms to this compute paradigm.
 
 1. Install Anaconda 3
 2. Configure Anaconda 3 to prioritize `conda-forge` channel
-  1. `conda config --add channels conda-forge`
-  2. `conda config --set channel_priority strict`
+  * `conda config --add channels conda-forge`
+  * `conda config --set channel_priority strict`
 3. Install and use `mamba` to parallelize `conda` operations
-  1. `conda install mamba --yes`
+  * `conda install mamba --yes`
 4. Install `conda-pack`
-  1. `mamba install conda-pack --yes`
+  * `mamba install conda-pack --yes`
