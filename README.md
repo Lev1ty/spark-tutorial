@@ -17,5 +17,5 @@ Thus, ensure that your workload conforms to this compute paradigm.
   * `conda config --set channel_priority strict`
 3. Install and use `mamba` to parallelize `conda` operations
   * `conda install mamba --yes`
-4. Install `conda-pack`
-  * `mamba install conda-pack --yes`
+4. Install dependencies
+  * `mamba install conda-pack pyspark --yes`
